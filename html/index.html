@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            background-color: red;
+            width: fit-content;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            let x = document.forms['myForm'][' fname '].value
+            if (x == '') {
+                alert('Nama tidak boleh kosong!');
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- <h1>
+        Kursus Online dari <br />
+        Lembaga Pelatihan Resmi untuk <br />
+        Tingkatkan Karier Profesionalmu
+    </h1> -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>No Hp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nia</td>
+                <td>Medan</td>
+                <td>08135672157</td>
+            </tr>
+            <tr>
+                <td>Farhan</td>
+                <td>Lampung</td>
+                <td>08135672157</td>
+            </tr>
+            <tr>
+                <td>Joan</td>
+                <td>Jakarta</td>
+                <td>08135672157</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="https://prakerja.arkademi.com/">Prakerja</a><br />
+
+    <img src="https://prakerja.arkademi.com/static/media/hero.d05405f0.png" alt="gambar-mentor" /><br />
+
+    Bermitra dengan lembaga pemerintah sebagai penyedia layanan pelatihan kartu prakerja untuk menciptakan angkatan
+    kerja Indonesia yang siap kerja.<br />
+    <b>
+        Bermitra dengan lembaga pemerintah sebagai penyedia layanan pelatihan kartu prakerja untuk menciptakan angkatan
+        kerja Indonesia yang siap kerja.
+    </b>
+    <h1>
+        Kursus Online dari <br />
+        Lembaga Pelatihan Resmi untuk <br />
+        Tingkatkan Karier Profesionalmu
+    </h1>
+    <h2>
+        Kursus Online dari <br />
+        Lembaga Pelatihan Resmi untuk <br />
+        Tingkatkan Karier Profesionalmu
+    </h2>
+    <mark>Tugas praktik sebagai penilaian akhir untuk mendapatkan sertifikat penyelesaian</mark>
+    <p>Tugas praktik sebagai penilaian akhir untuk mendapatkan sertifikat penyelesaian</p>
+
+    <form name="myForm" onsubmit="return validateForm()">
+        Name: <input type="text" name=" fname " />
+        <input type="submit" name="Submit" />
+    </form>
+    <div />
+</body>
+
+</html>

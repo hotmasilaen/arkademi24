@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    gap: 3rem;
+    margin: 15rem;
+    align-items: center;
+}
+
+.text-blue {
+    color: #0977be;
+}
+
+.sub-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 3rem;
+}
+
+button {
+    color: white;
+    background: linear-gradient(261.28deg, #ff9417 18.17%, #ff8017 84.69%);
+    border-radius: 0.429vw;
+    ;
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-conatiner {
+    display: flex;
+    align-items: center;
+    margin: 3rem 15rem;
+    gap: 2rem;
+}
+
+.card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .img2 {
+        display: none;
+    }
+
+    .container {
+        margin: 3rem;
+        width: 100%;
+    }
+
+    .card-conatiner {
+        margin: 3rem;
+        flex-direction: column;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+.kategori-populer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 15rem;
+}
+
+.kategori-populer-card {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.kategori-populer-card:hover {
+    border-color: #0977be;
+}

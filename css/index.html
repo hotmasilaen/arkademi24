@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: #eb2b2b97;
+            background-color: #0088ff9a;
+        }
+
+        .container {
+            background-color: brown;
+        }
+
+        .text-white {
+            color: white;
+            background-color: #0977be;
+        }
+
+        #btn {
+            color: #0977be;
+            font-weight: 700;
+            background-color: white;
+            /* border: 1px solid #0977be;
+            border-radius: 5px; */
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: #0977be;
+            /* padding: 10px 20px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            /* margin: 10px 20px; */
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            letter-spacing: 1px;
+        }
+
+        .box {
+            background-image: url('../../batch22/css/desktop-wallpaper-dark-mountain-dark-mountains.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            text-align: center;
+            padding-top: 4rem;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            background-position: center;
+        }
+
+        img {
+            filter: blur(1px);
+            width: 600px;
+            height: 0px;
+            /* transition: width 2s, height 2s, filter 2s, margin-left 2s;
+            transition-delay: 2s; */
+            /* animation: animasiGambar 2s ease 2 alternate forwards running; */
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+            animation-name: animasiGambar;
+            animation-timeline: auto;
+            animation-range-start: normal;
+        }
+
+        .img2 {
+            filter: blur(1px);
+            width: 600px;
+            height: 0px;
+            /* transition: width 2s, height 2s, filter 2s, margin-left 2s;
+            transition-delay: 2s; */
+            /* animation: animasiGambar 2s ease 2 alternate forwards running; */
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-delay: 3s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+            animation-name: animasiGambar;
+            animation-timeline: auto;
+            animation-range-start: normal;
+        }
+
+        /* img:hover {
+            width: 600px;
+            height: 300px;
+            filter: blur(0px);
+            margin-left: 5rem;
+        } */
+
+        @keyframes animasiGambar {
+            from {
+                height: 0px;
+            }
+
+            to {
+                height: 300px;
+                filter: blur(0px);
+                /* margin-left: 5rem; */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="../../batch22/css/desktop-wallpaper-dark-mountain-dark-mountains.jpg" /><br />
+    <img class="img2" src="../../batch22/css/desktop-wallpaper-dark-mountain-dark-mountains.jpg" />
+    <!-- <div class="box">Tingkatkan Karier Profesionalmu</div>
+    <h1>Tingkatkan Karier Profesionalmu</h1>
+    <div class="container text-white">ini element yang kedua</div>
+    <button id="btn">Masuk</button>
+    <h1>Lembaga Pelatihan Resmi untuk</h1>
+    <div class="container">ini element yang KETIGA</div> -->
+</body>
+
+</html>

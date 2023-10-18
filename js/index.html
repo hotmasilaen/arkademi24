@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="root"></p>
+    <script>
+        // const nama = "Farhan";
+        // const Nama = "Nia";
+        // const NamA = "Nia";
+
+        const umur = "23";
+        let alamat = "Medan";
+        alamat = "Jakarta";
+        // var noHp = "087345xxxx";
+        // noHp = "0812xxxxxx";
+
+        console.log("Alamat: ", alamat);
+        // alert("Alamat: " + alamat);
+        document.getElementById("root").innerHTML = "Alamat: " + alamat;
+
+
+        const value1 = 300;
+        const value2 = '1000';
+        console.log(value1 + value2);
+
+        const namaSiswa = "Nia";
+        if (typeof namaSiswa === 'object') namaSiswa.map(nama => console.log(nama))
+
+        const hargaBarang = 2739000;
+        const diskon = 300000;
+        const bayar = hargaBarang - diskon;
+        console.log("Yang perlu dibayar: ", bayar);
+
+
+        const currentPassword = "123456Password";
+        const incommingPassword = "12345Password";
+        console.log("Password match? ", currentPassword == incommingPassword);
+
+        const number1 = 23;
+        const number2 = 20;
+        // console.log("value identical? ", number1 === number2);
+
+        console.log("value tidak sama? ", number1 != number2);
+        console.log("value not identical? ", number1 !== number2);
+
+        const noHp = "081277777788";
+        console.log("No HP: ", noHp.slice(1, 12));
+        console.log("No HP dengan kode negara: ", noHp.replace('0', '+62'));
+
+
+        let nilai = 60;
+        if (nilai > 85) {
+            console.log("Selamat kamu lulus!");
+        } else if (nilai === 65) {
+            console.log("Kamu remedial.");
+        }
+        else {
+            console.log("Mohon maaf kamu tidak lulus.");
+        }
+
+        let day = 3;
+        switch (day) {
+            case 1:
+                console.log("Hari ini adalah hari Senin.");
+                break;
+            case 2:
+                console.log("Hari ini adalah hari Selasa.");
+                break;
+            case 3:
+                console.log("Hari ini adalah hari Rabu.");
+                break;
+            case 4:
+                console.log("Hari ini adalah hari Kamis.");
+                break;
+            case 5:
+                console.log("Hari ini adalah hari Kamis.");
+                break;
+            default:
+                console.log("Hari ini adalah hari weekend.");
+                break;
+        }
+
+        for (var i = 1; i <= 5; i++) {
+            console.log("Number: ", i);
+        }
+
+        const fruits = ["Banana", "Apple", "Grape", "Mango"];
+        for (var i in fruits) {
+            console.log(fruits[i]);
+        }
+
+        function penjumlahan(x, y, z) {
+            let s = x + y + z;
+            return s
+        }
+
+        console.log(penjumlahan(1200, 500, 100));
+    </script>
+</body>
+
+</html>
